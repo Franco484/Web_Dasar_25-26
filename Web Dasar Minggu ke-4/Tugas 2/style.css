@@ -1,0 +1,43 @@
+body{
+    font-family: Verdana, Geneva, Tahoma,sans-serif;
+    background-color: #fdf5e6;
+}
+
+div{
+    width: 50%;
+    height: 550px;
+    background-color: white;
+    border: 2px;
+    border-color: #8b4513;
+}
+
+h1{
+    color: #8b4513;
+}
+
+a{
+    color: #8b4513;
+}
+
+hr{
+    width: 90%;
+    color: #8b4513;
+}
+
+p{
+    color:  #919191;
+}
+
+h4{
+    color: #8b4513;
+}
+
+table{
+    
+}
+
+footer p{
+    Font-size: 20px;
+    Text-align: center;
+    Font-weight: bold;
+}
