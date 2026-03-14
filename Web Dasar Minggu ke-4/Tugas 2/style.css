@@ -1,4 +1,4 @@
-body {
+body{
     background-color: #edf5e6;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #8b4513;
@@ -8,7 +8,7 @@ body {
     padding: 20px;
 }
 
-.card {
+.card{
     width: 50%;
     height: 550px;
     background-color: white;
@@ -17,44 +17,44 @@ body {
     box-sizing: border-box;
 }
 
-h1, h4 {
+h1, h4{
     margin: 5px 0;
 }
 
-hr {
+hr{
     width: 90%;
     border: 1px solid #8b4513;
 }
 
-.menu {
+.menu{
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 15px;
 }
 
-.item {
+.item{
     width: 60%;
     font-weight: bold;
 }
 
-.dots {
+.dots{
     border-bottom: 1px dotted #8b4513;
     width: 20%;
 }
 
-.price {
+.price{
     width: 20%;
     text-align: right;
     font-weight: bold;
 }
 
-.desc {
+.desc{
     color: #919191;
     font-style: italic;
     padding: 8px 0;
 }
 
-.footer {
+.footer{
     font-size: 20px;
     text-align: center;
     font-weight: bold;
