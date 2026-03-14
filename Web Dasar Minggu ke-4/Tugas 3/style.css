@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ada9a9;
+}
+
+header {
+    background-color: rgb(209,244,255);
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    background-color: white;
+    border-radius: 15px;
+    padding: 8px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+main {
+    margin: 0;
+    height: 600px;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.data-diri {
+    border-radius: 20px;
+}
+
+.pendidikan {
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.pengalaman {
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 15px;
+}
