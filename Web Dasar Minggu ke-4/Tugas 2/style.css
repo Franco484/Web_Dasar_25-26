@@ -1,43 +1,61 @@
-body{
-    font-family: Verdana, Geneva, Tahoma,sans-serif;
-    background-color: #fdf5e6;
+body {
+    background-color: #edf5e6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #8b4513;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
 }
 
-div{
+.card {
     width: 50%;
     height: 550px;
     background-color: white;
-    border: 2px;
-    border-color: #8b4513;
+    border: 2px solid #8b4513;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-h1{
-    color: #8b4513;
+h1, h4 {
+    margin: 5px 0;
 }
 
-a{
-    color: #8b4513;
-}
-
-hr{
+hr {
     width: 90%;
-    color: #8b4513;
+    border: 1px solid #8b4513;
 }
 
-p{
-    color:  #919191;
+.menu {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
 }
 
-h4{
-    color: #8b4513;
+.item {
+    width: 60%;
+    font-weight: bold;
 }
 
-table{
-    
+.dots {
+    border-bottom: 1px dotted #8b4513;
+    width: 20%;
 }
 
-footer p{
-    Font-size: 20px;
-    Text-align: center;
-    Font-weight: bold;
+.price {
+    width: 20%;
+    text-align: right;
+    font-weight: bold;
+}
+
+.desc {
+    color: #919191;
+    font-style: italic;
+    padding: 8px 0;
+}
+
+.footer {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
 }
